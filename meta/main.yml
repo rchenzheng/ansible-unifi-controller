@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: unifi-controller
+  role_name: unifi_controller
   author: rchenzheng
   description: Unifi controller for Debian
 
