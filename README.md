@@ -1,4 +1,4 @@
-Role Name
+Ansible Role: Unifi Controller
 =========
 
 Installs unifi controller
