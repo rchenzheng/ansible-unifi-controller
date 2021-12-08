@@ -11,6 +11,10 @@ galaxy_info:
   - name: Debian
     versions:
     - stretch
+  - name: Ubuntu
+    versions:
+    - focal
+    - bionic
 
   galaxy_tags:
   - unifi

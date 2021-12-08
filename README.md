@@ -6,7 +6,7 @@ Installs unifi controller
 Requirements
 ------------
 
-Currently only supported by Debian stretch due to openjdk8
+Currently only supported by Debian stretch and most Ubuntu distributions due to openjdk8
 
 Dependencies
 ------------
@@ -15,8 +15,6 @@ Dependencies
 
 Example Playbook
 ----------------
-
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
     - hosts: servers
       roles:
@@ -29,5 +27,5 @@ BSD
 
 Author Information
 ------------------
-
+Richard Chen Zheng
 https://github.com/rchenzheng
