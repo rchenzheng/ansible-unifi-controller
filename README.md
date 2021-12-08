@@ -20,7 +20,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - rchenzheng.unifi-controller
+         - rchenzheng.unifi_controller
 
 License
 -------
