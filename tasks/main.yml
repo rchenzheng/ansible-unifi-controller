@@ -1,0 +1,31 @@
+---
+- name: install dependencies
+  apt:
+    name: 
+      - net-tools
+      - dphys-swapfile
+      - apt-transport-https
+      - ca-certificates
+      - gnupg2
+      - dnsutils
+      - ufw
+      - software-properties-common
+      - openjdk-8-jdk
+    update_cache: yes
+    state: latest
+
+- name: add unifi signing key
+  apt_key:
+    url: https://dl.ui.com/unifi/unifi-repo.gpg
+    state: present
+
+- name: add unifi repo
+  apt_repository:
+    repo: deb https://www.ui.com/downloads/unifi/debian stable ubiquiti
+    state: present
+
+- name: install unifi
+  apt:
+    name: unifi
+    update_cache: yes
+    state: latest

@@ -1,0 +1,20 @@
+galaxy_info:
+  role_name: unifi-controller
+  author: rchenzheng
+  description: Unifi controller for Debian
+
+  license: BSD
+
+  min_ansible_version: 2.1
+
+  platforms:
+  - name: Debian
+    versions:
+    - stretch
+
+  galaxy_tags:
+  - unifi
+  - ubiquiti
+  - controller
+
+dependencies: []
